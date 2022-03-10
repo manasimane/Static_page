@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.upper_navbar{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.upper_navbar .logo_title_container{
+    display: flex;
+    padding-left: 9.8rem;
+}
+
+.upper_navbar .title_name{
+    font-size: x-large;
+    padding-top: 16px;
+    color: rgb(100, 99, 99);
+}
+
+.upper_navbar .logo img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.upper_navbar .menu_items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 14rem;
+    margin-right: 17rem;
+    /* border: 2px solid black; */
+}
+
+.upper_navbar .menu_items li a{
+    text-decoration: none;
+    color: black;
+    /* padding: 10px 78px; */
+    /* float: left; */
+}
+
+.upper_navbar .button{
+    text-align: center;
+    border-bottom: 4px solid rgb(31, 144, 179);
+    background-color: rgb(37 201 214);
+    border-radius: 11px;
+    height: 3.5rem;
+    width: 6.7rem;
+    color: white;
+    font-size: 18px;
+    margin-right: 14rem;
+    padding-top: 16px;
+}
+
+.lower_navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: rgba(59, 58, 58, 0.973);
+    color: white;
+    height: 5.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower_navbar .left{
+    padding-left:5rem ;
+}
+
+.lower_navbar .right{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+    height: 4rem;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.lower_navbar .right .download_button{
+    height: 3rem;
+    width: 9rem;
+    background-color: #63b1c6;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    /* display: flex; */
+}
+
+.lower_navbar .right .download_button img{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 9px;
+}
+
+.lower_navbar .right .social_media{
+    display: flex;
+    /* border: 2px solid skyblue; */
+    width: 7rem;
+    justify-content: space-between;
+}
+
+.lower_navbar .right .social_media img{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+/* .mainpart_container{
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    max-width: 144rem;
+    padding-top: 3rem;
+} */
+
+.mainpart_container{
+    display: flex;
+    /* border: 2px solid rgb(77, 221, 231); */
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    /* margin-top: 3rem; */
+    padding-top: 2rem;
+    max-width: 144rem;
+    /* height: 30rem;  */
+}
+
+
+.mainpart_container .left_mainpart{
+    /* border: 2px solid rgb(9, 255, 0); */
+    background-color: #f2f6fd;
+    /* padding: 2rem 0;   */
+    max-height: calc(100vh - 8rem);
+    overflow: auto;
+    max-width: 21rem;
+    margin-left: 2rem;
+    display: flex;
+    position: sticky; 
+    max-height: 34.4rem;
+}
+
+
+.mainpart_container .left_mainpart .main_ul{
+    /* border: 2px solid black; */
+
+    display: flex;
+}
+
+.mainpart_container .left_mainpart .main_ul a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    padding: 1rem 1.3rem;
+    display: flex
+}
+
+.mainpart_container .left_mainpart .main_ul .left_title{
+    font-size: x-large;
+}
+
+.mainpart_container .left_mainpart .main_ul .sub_ul{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.mainpart_container .right_mainpart{
+    /* border: 2px solid red;  */
+    width: 64rem;
+    margin-left: 2rem;
+} 
+
+.mainpart_container .right_mainpart .introduction_container{
+    line-height: 1.5rem;
+}
+
+.mainpart_container .right_mainpart .introduction_container .last_para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainpart_container .right_mainpart .intoduction_container .last_para img{
+    height: 24rem;
+    width: 51rem;
+    /* margin: auto; */
+}
+
+
